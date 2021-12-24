@@ -1,1 +1,139 @@
-# ciencia-da-computacao
+# Ciência da Computação / Cietista da Computação:
+
+Bits;
+Binários;
+ASCII;
+Elementos de Programação;
+Algoritmos;
+Scratch;
+Expressões Booleanas.
+
+Importante ter conhecimento de uso de Sistemas Operacional por linhas de comandos (Linux ou Windows).
+
+Aprender a fazer algoritmos que resolva problemas e otimizar processos.
+
+# Bits;
+
+1000 100 
+10 1
+
+Exemplo:
+
+número: 127
+
+Centena    Dezena    dezena
+100      | 10       | 1   -->  Sistema Binario
+1 *        2 *        7   <--  Decimal (Potencia de 10 '0-9' com 10 possibilidades)
+
+Exemplo decimal: 
+10 ** 0
+10 ** 1
+10 ** 2
+
+Numeros Binario ** 2 (0-1):
+
+2 ** 0 = 1
+2 ** 1 = 2
+2 ** 2 = 4
+2 ** 3 = 8
+
+Exemplo do Binario (0-1, com 2 possibilidades) conversão:
+
+numero=7
+
+8   4   2   1 (bytes conjunto de 8 bits)
+0   1   1   1 binario
+
+numero=5
+8   4   2   1
+0   1   0   1  binanrio
+
+numero=3
+8   4   2   1
+0   0   1   1 binario
+
+numero=6
+8   4   2   1
+0   1   1   0 binario
+
+numero=2
+8   4   2   1
+0   0   1   0 binarios
+
+# Tabela ASCII;
+
+2 ** 8 = 8 bits = 1 byte
+
+1 * 2 = 2
+2 * 2 = 4
+4 * 2 = 8
+8 * 2 = 16
+16 * 2 = 32
+32 * 2 = 64
+64 * 2 = 128
+128 * 2 = 256
+
+# HDs
+
+Quando seu arquivo é deletado no hd, ele é gravado no hd como 0(zeros). (Esquecido dentro do HD).
+
+Porem ainda assim é possivel resgatar os dados com ferramentas forense.
+
+# Algoritmo
+
+Um loop infinito é ruim. Como cientista da programação voce precisa antecipar os problemas.
+
+É uma sequencia de intruções para resolver um problema.
+
+Exemplo:
+
+#include <stdio.h>
+
+int
+main(void)
+{
+        printf("Hello Word!\n");
+}
+
+
+Apos salvar esse conteudo em um arquivo exemplos 'hellow.c' podemos fazer a copilação com o seguinte comando:
+
+*gcc hellow.c*
+
+Se não apresentar nenhum erro a compilação foi realizada com sucesso!
+E podemos encontrar o um arquivo novo 'a.out' sera já o seu programa compilado.
+Execute o seu programa com o comando abaixo:
+
+*./a.out*
+
+Será mostrada na tela:
+
+*Hello Word!*
+
+
+O computador vai ler todo seu codigo em '00000' e '111111'.
+
+# Scratch;
+
+Voce consegue dar instruções...
+
+# Expressões Booleanas
+
+Verdadeiro / Falso
+True / False
+
+numero1 > numero2
+
+ true and  true = true
+ false and true = false
+ true and false = false
+ 
+ 
+
+
+
+
+
+
+
+
