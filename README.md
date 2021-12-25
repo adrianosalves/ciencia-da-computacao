@@ -178,12 +178,22 @@ while (true)
         printd("O hai!\n");
 }
 
-**Loops > For**: Estado para iniciar variaveis.
+**do while*** : Util para fazer validação. para saber se  input está certo!
+
+do
+{
+        //faça isso
+}
+while(condição)
+
+**Loops > For**: Estado para iniciar variaveis. 
+Ex: for(inicializacao; condição; atualização);
 
 for (int i = 0; i < 10; i++)
 {
         printd("O hai!\n");
 }
+
 
 **Arrays**: É listas de coisas para guardar o que quiser, exemplo guardar lista de inteiro, frutas, alunos e etc.
 
@@ -259,10 +269,60 @@ main()
 . Pode se usar Linux DualBoot com o windows
 . Caso desejar use uma VirtualBox
 
-# 
+# Condicionais
 
-           
-        
+As 2(duas) condições precisa ser verdadeira:
+
+if (condição && condição)
+{
+
+        // faça isso
+}
+
+Somete uma delas precisa ser verdadeira, o restante não importa!
+
+if (condição || condição)
+{
+
+# Switches
+
+Funciona praticamente como 'if' .
+case = Case so aceita valores (A,B,C,1,2,3,false,true)
+swith = aceita as variaveis.
+
+switch (variavel)
+{
+        case 1:
+                //faça isso
+                break
+        case 2:
+                //faça isso
+                break
+        default:
+                //faça isso        
+}
+
+# Semana 2
+
+**Aula 2.0**
+
+Funções;
+Variáveis globais;
+Parâmetros;
+Valores de retorno;
+Stack;
+Frames;
+Escopo;
+Arrays;
+Strings;
+Argumentos de linha de comando;
+Criptografia.
+
+# Funções;
+
+
+
+
 
 
 
